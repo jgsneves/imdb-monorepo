@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`MovieCard test suite should render proper snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="chakra-card css-r29fgq"
+  >
+    <img
+      alt="Caffe Latte"
+      class="chakra-image css-1nra699"
+      src="https://images.unsplash.com/photo-1667489022797-ab608913feeb?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxlZGl0b3JpYWwtZmVlZHw5fHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=800&q=60"
+    />
+    <div
+      class="chakra-stack css-8g8ihq"
+    >
+      <div
+        class="chakra-card__body css-0"
+      >
+        <h2
+          class="chakra-heading css-0"
+        >
+          Nome do filme
+        </h2>
+        <p
+          class="chakra-text css-o5g2qp"
+        >
+          Diretor: Nome do diretor
+        </p>
+        <p
+          class="chakra-text css-o5g2qp"
+        >
+          Gênero: Ação
+        </p>
+        <p
+          class="chakra-text css-o5g2qp"
+        >
+          Atores: José, João, Maria
+        </p>
+      </div>
+      <div
+        class="chakra-card__footer css-k008qs"
+      >
+        <button
+          class="chakra-button css-4xx2wk"
+          type="button"
+        >
+          ver detalhes
+        </button>
+      </div>
+    </div>
+  </div>
+</DocumentFragment>
+`;

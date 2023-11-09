@@ -1,0 +1,125 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateMovie test suite Should render proper snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="chakra-card css-lateg3"
+  >
+    <div
+      class="css-j7jsy"
+    >
+      <b
+        class="chakra-text css-13o7eu2"
+      >
+        Cadastrar um novo filme
+      </b>
+      <form
+        action="#"
+      >
+        <div
+          class="chakra-form-control css-0"
+          role="group"
+        >
+          <label
+            class="chakra-form__label css-uvho5g"
+            for="field-:r0:"
+            id="field-:r0:-label"
+          >
+            Nome:
+            <input
+              class="chakra-input css-0"
+              data-testid="name"
+              id="name"
+              name="name"
+              value=""
+            />
+          </label>
+        </div>
+        <div
+          class="chakra-form-control css-0"
+          role="group"
+        >
+          <label
+            class="chakra-form__label css-uvho5g"
+            for="field-:r1:"
+            id="field-:r1:-label"
+          >
+            Data de lançamento:
+            <input
+              class="chakra-input css-0"
+              data-testid="releaseDate"
+              id="releaseDate"
+              name="releaseDate"
+              type="date"
+              value=""
+            />
+          </label>
+        </div>
+        <div
+          class="chakra-form-control css-0"
+          role="group"
+        >
+          <label
+            class="chakra-form__label css-uvho5g"
+            for="field-:r2:"
+            id="field-:r2:-label"
+          >
+            Gênero:
+            <input
+              class="chakra-input css-0"
+              data-testid="genre"
+              id="genre"
+              name="genre"
+              value=""
+            />
+          </label>
+        </div>
+        <div
+          class="chakra-form-control css-0"
+          role="group"
+        >
+          <label
+            class="chakra-form__label css-uvho5g"
+            for="field-:r3:"
+            id="field-:r3:-label"
+          >
+            Nome do Diretor:
+            <input
+              class="chakra-input css-0"
+              data-testid="directorName"
+              id="directorName"
+              name="directorName"
+              value=""
+            />
+          </label>
+        </div>
+        <div
+          class="chakra-form-control css-0"
+          role="group"
+        >
+          <label
+            class="chakra-form__label css-uvho5g"
+            for="field-:r4:"
+            id="field-:r4:-label"
+          >
+            Atores (separar por vírgulas):
+            <input
+              class="chakra-input css-0"
+              data-testid="actors"
+              id="actors"
+              name="actors"
+              value=""
+            />
+          </label>
+        </div>
+        <button
+          class="chakra-button css-uxt1e8"
+          type="submit"
+        >
+          salvar
+        </button>
+      </form>
+    </div>
+  </div>
+</DocumentFragment>
+`;

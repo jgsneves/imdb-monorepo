@@ -1,0 +1,146 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`CreateUser test suite should render proper snapshot 1`] = `
+<DocumentFragment>
+  <div
+    class="chakra-card css-lateg3"
+  >
+    <div
+      class="css-j7jsy"
+    >
+      <b
+        class="chakra-text css-13o7eu2"
+      >
+        Cadastrar um novo usuário
+      </b>
+      <form
+        action="#"
+      >
+        <div
+          class="chakra-form-control css-0"
+          role="group"
+        >
+          <label
+            class="chakra-form__label css-uvho5g"
+            for="field-:r0:"
+            id="field-:r0:-label"
+          >
+            Nome:
+            <input
+              class="chakra-input css-0"
+              id="name"
+              name="name"
+              value=""
+            />
+          </label>
+        </div>
+        <div
+          class="chakra-form-control css-0"
+          role="group"
+        >
+          <label
+            class="chakra-form__label css-uvho5g"
+            for="field-:r1:"
+            id="field-:r1:-label"
+          >
+            Email:
+            <input
+              class="chakra-input css-0"
+              id="email"
+              name="email"
+              type="email"
+              value=""
+            />
+          </label>
+        </div>
+        <div
+          class="chakra-form-control css-0"
+          role="group"
+        >
+          <label
+            class="chakra-form__label css-uvho5g"
+            for="field-:r2:"
+            id="field-:r2:-label"
+          >
+            Senha:
+            <input
+              class="chakra-input css-0"
+              id="password"
+              name="password"
+              type="password"
+              value=""
+            />
+          </label>
+        </div>
+        <div
+          class="chakra-form-control css-0"
+          role="group"
+        >
+          <label
+            class="chakra-form__label css-uvho5g"
+            for="field-:r3:"
+            id="field-:r3:-label"
+          >
+            Confirme a senha:
+            <input
+              class="chakra-input css-0"
+              id="confirmPassword"
+              name="confirmPassword"
+              type="password"
+              value=""
+            />
+          </label>
+        </div>
+        <label
+          class="chakra-form__label css-uvho5g"
+        >
+          Privilégio:
+          <div
+            class="chakra-select__wrapper css-42b2qy"
+          >
+            <select
+              class="chakra-select css-1ik61og"
+              id="role"
+              name="role"
+            >
+              <option
+                value="ADMIN"
+              >
+                Admin
+              </option>
+              <option
+                value="USER"
+              >
+                User
+              </option>
+            </select>
+            <div
+              class="chakra-select__icon-wrapper css-162mkon"
+            >
+              <svg
+                aria-hidden="true"
+                class="chakra-select__icon"
+                focusable="false"
+                role="presentation"
+                style="width: 1em; height: 1em; color: currentColor;"
+                viewBox="0 0 24 24"
+              >
+                <path
+                  d="M16.59 8.59L12 13.17 7.41 8.59 6 10l6 6 6-6z"
+                  fill="currentColor"
+                />
+              </svg>
+            </div>
+          </div>
+        </label>
+        <button
+          class="chakra-button css-uxt1e8"
+          type="submit"
+        >
+          salvar
+        </button>
+      </form>
+    </div>
+  </div>
+</DocumentFragment>
+`;

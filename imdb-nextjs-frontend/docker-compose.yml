@@ -1,0 +1,11 @@
+version: "3.8"
+services:
+  next-frontend:
+    container_name: next-frontend
+    build:
+      context: .
+      dockerfile: Dockerfile
+    ports:
+      - 3002:3002
+    env_file:
+      - .env

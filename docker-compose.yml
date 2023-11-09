@@ -1,0 +1,38 @@
+version: "3.8"
+services:
+  nest-api:
+    container_name: nest-api
+    build:
+      context: ./imdb-nestjs-api
+      dockerfile: Dockerfile
+    ports:
+      - 3000:3000
+    depends_on:
+      - postgres
+    env_file:
+      - .env
+
+  next-frontend:
+    container_name: next-frontend
+    build:
+      context: ./imdb-nextjs-frontend
+      dockerfile: Dockerfile
+    ports:
+      - 3002:3002
+    env_file:
+      - .env
+
+  postgres:
+    image: postgres
+    container_name: postgres
+    restart: always
+    ports:
+      - 5432:5432
+    env_file:
+      - .env
+    volumes:
+      - postgres:/var/lib/postgresql/data
+
+volumes:
+  postgres:
+    name: nest-db
